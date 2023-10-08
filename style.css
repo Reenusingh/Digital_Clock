@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+    background:url("https://i.pinimg.com/originals/ff/5b/29/ff5b2976b9ea0a30c17ff020aa1e7e49.jpg") ;
+}
+
+.DClock{
+    display: flex;
+}
+.Clock div{
+    margin: 5px;
+    position: relative;
+}
+.DClock span{
+    margin-left: 4px;
+    width: 100px;
+    height: 80px;
+    background: rgb(138, 183, 210);
+    opacity: 0.8;
+    color: white;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.DClock .text{
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: rgba(6, 6, 93, 0.662);
+    opacity: 0.8;
+    margin-left: 4px;
+}
+
+.DClock #ampm{
+    margin-top: 80px;
+    margin-left: 4px;
+     bottom: 0; 
+    /* position: absolute; */
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background:  rgba(6, 6, 93, 0.662);
+}
